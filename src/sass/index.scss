@@ -1,0 +1,49 @@
+@import '_svg';
+@import '_top';
+@import '_bottom';
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'azoft';
+}
+body {
+  font-size: 16px;
+  margin-bottom: 50px;
+  @media screen and (max-width: 700px) {
+    font-size: 12px;
+  }
+  @media screen and (max-width: 425px) {
+    font-size: 10px;
+  }
+}
+
+button {
+  outline: none;
+  cursor: pointer;
+}
+
+
+.circle[position="0"] {
+  background-color: #a122ea;
+}
+.circle[position="1"], .line[position="1"] {
+  background-color: #0081f1;
+}
+.circle[position="2"], .line[position="2"] {
+  background-color: #ff2953;
+}
+.circle[position="3"], .line[position="3"] {
+  background-color: #ff7346;
+}
+.circle[position="4"], .line[position="4"] {
+  background-color: #ffba3d;
+}
+.circle[position="5"], .line[position="5"] {
+  background-color: #68dc00;
+}
+.circle[position="6"], .line[position="6"] {
+  background-color: #00ca94;
+}
+.circle[position="7"], .line[position="7"] {
+  background-color: #00b9f7;
+}

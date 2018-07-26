@@ -1,0 +1,112 @@
+.bottom-container {
+  .bottom-row {
+    max-width: 1170px;
+    margin: 15px auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    > div {
+      padding: 30px;
+      box-shadow: 3px 3px 13px rgba(0, 0, 0, 0.16);
+      box-sizing: border-box;
+      border-radius: 10px;
+      position: relative;
+      .img-container {
+	height: 116px;
+	img {
+	  position: absolute;
+	  left: 0px;
+	  top: 0px;
+	}
+	@media screen and (max-width: 1170px) {
+	  height: auto;
+	  margin-top: -20px;
+	  margin-bottom: 15px;
+	  img {
+	    display: block;
+	    position: static;
+	    margin: 0px auto;
+	    width: 300px;
+	  }
+	}
+	@media screen and (max-width: 425px) {
+	  height: auto;
+	  margin-top: -5px;
+	  img {
+	    width: 200px;
+	  }
+	}
+      }
+      @media screen and (max-width: 425px) {
+	padding: 10px;
+      }
+    }
+    h3 {
+      color: #16252a;
+      font-size: 1.25em;
+      margin-bottom: 35px;
+      @media screen and (max-width: 425px) {
+	margin-bottom: 15px;
+      }
+    }
+    p {
+      color: #848484;
+      font-family: 'Tahoma';
+      font-size: 0.875em;
+      line-height: 22px;
+      a {
+	font-family: 'Tahoma';
+      }
+    }
+    @media screen and (max-width: 1170px) {
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      > div {
+	width: 80%;
+	max-width: none;
+	margin: 5px 0px;
+      }
+    }
+  }
+  .bottom-row-item-1 {
+    max-width: 470px;
+  }
+  .bottom-row-item-2 {
+    max-width: 370px;
+  }
+  .bottom-row-item-3 {
+    max-width: 270px;
+  }
+  .bottom-row-item-4 {
+    .buttons-container {
+      margin-top: 35px;
+      @media screen and (max-width: 425px) {
+	margin-top: 15px;
+      }
+    }
+    button {
+      border-radius: 20px;
+      padding: 15px 50px;
+      font-size: 1.125em;
+      font-weight: bold;
+      @media screen and (max-width: 790px) {
+	padding: 7px 30px;
+      }
+      @media screen and (max-width: 445px) {
+	padding: 7px 20px;
+      }
+    }
+    .bottom-button-1 {
+      background: linear-gradient(to right, #a122ea 1%,#ff2a54 100%);
+      border: none;
+      color: #fff;
+    }
+    .bottom-button-2 {
+      color: #a122ea;
+      border: 2px solid #a122ea;
+      margin-left: 10px;
+      background-color: #fff;
+    }
+  }
+}

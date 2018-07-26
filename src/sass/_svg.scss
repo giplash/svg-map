@@ -1,0 +1,38 @@
+svg {
+  .disabled > path {
+    fill: gray;
+    transition: fill 0.3s;
+  }
+  .st0 {
+    fill:#1AC995;
+    transition: fill 1s;
+  }
+  .st1{
+    fill:#94DB21;
+    transition: fill 1s;
+  }
+  .st2{
+    fill:#8A27E5;
+    transition: fill 1s;
+  }
+  .st3{
+    fill:#2F80ED;
+    transition: fill 1s;
+  }
+  .st4{
+    fill:#4CB8F5;
+    transition: fill 1s;
+  }
+  .st5{
+    fill:#F2B94A;
+    transition: fill 1s;
+  }
+  .st6{
+    fill:#E82D53;
+    transition: fill 1s;
+  }
+  .st7{
+    fill:#F2724A;
+    transition: fill 1s;
+  }
+}
